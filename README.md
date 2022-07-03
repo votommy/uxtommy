@@ -1,3 +1,4 @@
-# uxtommy
-This website will be for non-professional uses, such as sharing my art, movie reviews, and blog posts.  
-For my professional site, visit my [Portfolio Website](https://github.com/votommy/portfolio-website).
+# Hello World!
+
+This is the placeholder webpage for uxtommy.com
+Once the website is ready to view, this branch will be deleted, and 'main' will inherit the domain name.
