@@ -1,0 +1,36 @@
+<h1>Q4 2020 Net Worth Update</h1>
+
+<br>
+<div id="imgWindow">
+<img src="../assets/blogpics/2021-NetWorth-Update.jpg" alt="A snippet of a spreadsheet breaking down Tommy's finances for 2021."/>
+</div>
+
+<h2>December 28, 2021</h2>
+
+<p>
+    Man, what a year this was.
+    <br><br>
+    A few points of interest worth talking about — I quit my job without a plan-B, and I bought a brand new car during the chip shortage.
+    <br><br>
+    That job that I landed in September of last year didn't turn out so great. After only 8 months, I decided that my mental health was worth more than the stable income I was making there. To make matters worse, my car broke down during the silicon shortage. Used cars with 20k miles on them were selling for more than brand new cars straight out the factory. So I had no choice but to do it; I cashed out on all my Dogecoin and used it towards the down-payment on a 2021 Corolla Hatchback. It's a pretty cool car, but I wish I could've bought a used car for half that price.
+    <br><br>
+    I really foreshadowed this in my last update, didn't I? I knew that positive net worth wasn't going to last long.
+    I ended the year with no job, and I'm slowly withdrawing the principle from my Roth IRA to make the car payments.
+    <br><br>
+    Hopefully, I can find a better job in 2022 before I deplete my funds completely.
+    <br><br><br>
+    - Tommy
+</p>
+
+<style scoped>
+#imgWindow {
+    width: 100%;
+    overflow-x: scroll;
+}
+img {
+    min-width: 200%;
+}
+p {
+    text-align: justify;
+}
+</style>

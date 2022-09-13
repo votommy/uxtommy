@@ -1,0 +1,29 @@
+<h1>Q4 2020 Net Worth Update</h1>
+
+<br>
+<img src="../assets/blogpics/Q4-2020-NetWorth-Update.jpg" alt="A snippet of a spreadsheet breaking down Tommy's 4th quarter finances for 2020."/>
+
+<h2>December 28, 2020</h2>
+
+<p>
+    This post marks the start of my bookkeeping journey to track my net worth.
+    <br><br>
+    For some context around this time of my life — I graduated in May with a CS degree, almost $9k in debt, and no job lined up. After hunting for 3 months, I finally landed a job in September. With this new source of income, I finally had a reason to start tracking my finances.
+    <br><br>
+    One monumental event happened this year — my net worth went into the positive for the first time since college! It probably won't stay above zero for long, but it's worth celebrating.
+    <br>
+    I'm still living with my parents, hence why I'm able to pay off my loans so fast. My net worth is increasing by ~$3,500/month. My goal right now is to pay off all my debt before it has a chance to accumulate any interest. This'll mean that I borrowed money for school interest free! I think it's more than doable, given my current trajectory.
+    <br><br>
+    Let's see what 2021 has in store.
+    <br><br><br>
+    - Tommy
+</p>
+
+<style scoped>
+img {
+    margin: 0 auto;
+}
+p {
+    text-align: justify;
+}
+</style>

@@ -1,0 +1,17 @@
+{
+  "name": "uxtommy-website",
+  "version": "1.0.0",
+  "description": "Tommy's website",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uxtommy",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.13"
+  }
+}

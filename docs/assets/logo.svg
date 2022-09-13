@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="155.82634mm"
+   height="168.6035mm"
+   viewBox="0 0 155.82634 168.6035"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.66368547"
+     inkscape:cx="73.830154"
+     inkscape:cy="443.73429"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-29.325752,-37.687509)">
+    <path
+       sodipodi:type="star"
+       style="fill:#ff9955;stroke:#ff9955;stroke-width:183.942;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path972"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="284.77344"
+       sodipodi:cy="336.00253"
+       sodipodi:r1="311.57065"
+       sodipodi:r2="269.82809"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.0943951"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 284.77345,647.57318 14.945345,491.78786 14.945337,180.21722 284.77343,24.431885 554.60153,180.2172 l 10e-6,311.57065 z"
+       transform="matrix(0.21534927,0,0,0.20890545,45.913172,51.796501)"
+       inkscape:transform-center-x="-2.4996439e-06" />
+    <g
+       id="g49220"
+       transform="translate(0,2.1492187)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:50.8px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+         x="66.39576"
+         y="120.79327"
+         id="text2434"><tspan
+           sodipodi:role="line"
+           id="tspan2432"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:TommySans;-inkscape-font-specification:TommySans;fill:#ffffff;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="66.39576"
+           y="120.79327">UX</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:25.4px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
+         x="55.067364"
+         y="156.73282"
+         id="text29382"><tspan
+           sodipodi:role="line"
+           id="tspan29380"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:TommySans;-inkscape-font-specification:TommySans;fill:#ffffff;stroke:#ffffff;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="55.067364"
+           y="156.73282">TOMMY</tspan></text>
+    </g>
+  </g>
+</svg>

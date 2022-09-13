@@ -1,0 +1,22 @@
+:root {
+    --vp-c-brand: var(--vp-c-tango);
+    --vp-c-brand-light: var(--vp-c-tango-light);
+    --vp-c-brand-lighter: var(--vp-c-tango-lighter);
+    --vp-c-brand-dark: var(--vp-c-tango-dark);
+    --vp-c-brand-darker: var(--vp-c-tango-darker);
+    
+    --vp-c-tango: #ff9955;
+    --vp-c-tango-light: #ffac74;
+    --vp-c-tango-lighter: #fdb483;
+    --vp-c-tango-dark: #e97e36;
+    --vp-c-tango-darker: #d46820;
+    --vp-c-tango-dimm-1: rgb(255, 153, 85, 0.5);
+    --vp-c-tango-dimm-2: rgb(255, 153, 85, 0.25);
+    --vp-c-tango-dimm-3: rgb(255, 153, 85, 0.05);
+  }
+
+  .VPDocs, .container, .VPContents {
+    padding: 0;
+    margin: 0;
+  }
+  
