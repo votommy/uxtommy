@@ -1,4 +1,14 @@
-<h1>Q4 2020 Net Worth Update</h1>
+---
+date: 2021-12-28
+title: uxTOMMY
+titleTemplate: 2021 Annual Net Worth Review
+description: 2021 annual net worth review
+aside: false
+tags:
+- finance
+---
+
+<h1>{{ $frontmatter.titleTemplate }}</h1>
 
 <br>
 <div id="imgWindow">

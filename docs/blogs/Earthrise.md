@@ -1,4 +1,14 @@
-<h1>Earthrise</h1>
+---
+date: 2020-04-22
+title: uxTOMMY
+titleTemplate: Earthrise
+description: Celebrating Earth Day's 50th Anniversity
+aside: false
+tags:
+- monologue
+---
+
+<h1>{{ $frontmatter.titleTemplate }}</h1>
 
 <br>
 <img src="../assets/blogpics/Earthrise.jpg" alt="A photo of Earth rising over the horizon of the moon."/>

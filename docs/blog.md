@@ -1,13 +1,20 @@
+---
+title: uxTOMMY
+titleTemplate: Blog
+description: Tommy's blog posts
+aside: false
+---
+
 <h1>Posts</h1>
 
 <table>
     <tr>
         <td>December 28, 2021</td>
-        <td><a href="/blogs/2021-NetWorth-Update">2021 Net Worth Update</a></td>
+        <td><a href="/blogs/2021-NetWorth-Update">2021 Annual Net Worth Review</a></td>
     </tr>
     <tr>
         <td>December 28, 2020</td>
-        <td><a href="/blogs/Q4-2020-NetWorth-Update">Q4 2020 Net Worth Update</a></td>
+        <td><a href="/blogs/Q4-2020-NetWorth-Update">2020 Annual Net Worth Review</a></td>
     </tr>
     <tr>
         <td>April 22, 2020</td>

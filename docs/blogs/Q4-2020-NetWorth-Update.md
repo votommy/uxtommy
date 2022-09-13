@@ -1,4 +1,14 @@
-<h1>Q4 2020 Net Worth Update</h1>
+---
+date: 2020-12-28
+title: uxTOMMY
+titleTemplate: 2020 Annual Net Worth Review
+description: 2020 annual net worth review
+aside: false
+tags:
+- finance
+---
+
+<h1>{{ $frontmatter.titleTemplate }}</h1>
 
 <br>
 <img src="../assets/blogpics/Q4-2020-NetWorth-Update.jpg" alt="A snippet of a spreadsheet breaking down Tommy's 4th quarter finances for 2020."/>
