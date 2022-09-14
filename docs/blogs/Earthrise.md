@@ -6,6 +6,7 @@ description: Celebrating Earth Day's 50th Anniversity
 aside: false
 tags:
 - monologue
+- science
 ---
 
 <h1>{{ $frontmatter.titleTemplate }}</h1>

@@ -1,0 +1,42 @@
+{
+  "2021-NetWorth-Update": {
+    "date": "2021-12-28T00:00:00.000Z",
+    "title": "uxTOMMY",
+    "titleTemplate": "2021 Annual Net Worth Review",
+    "description": "2021 annual net worth review",
+    "aside": false,
+    "tags": [
+      "finance"
+    ],
+    "preview": "<h1>{{ $frontmatter.titleTemplate }}</h1>\r\n\r\n<br>\r\n<div …",
+    "iso8601Date": "2021-12-27T18:00:00-06:00",
+    "basename": "2021-NetWorth-Update"
+  },
+  "Earthrise": {
+    "date": "2020-04-22T00:00:00.000Z",
+    "title": "uxTOMMY",
+    "titleTemplate": "Earthrise",
+    "description": "Celebrating Earth Day's 50th Anniversity",
+    "aside": false,
+    "tags": [
+      "monologue",
+      "science"
+    ],
+    "preview": "<h1>{{ $frontmatter.titleTemplate }}</h1>\r\n\r\n<br>\r\n<img …",
+    "iso8601Date": "2020-04-21T19:00:00-05:00",
+    "basename": "Earthrise"
+  },
+  "Q4-2020-NetWorth-Update": {
+    "date": "2020-12-28T00:00:00.000Z",
+    "title": "uxTOMMY",
+    "titleTemplate": "2020 Annual Net Worth Review",
+    "description": "2020 annual net worth review",
+    "aside": false,
+    "tags": [
+      "finance"
+    ],
+    "preview": "<h1>{{ $frontmatter.titleTemplate }}</h1>\r\n\r\n<br>\r\n<img …",
+    "iso8601Date": "2020-12-27T18:00:00-06:00",
+    "basename": "Q4-2020-NetWorth-Update"
+  }
+}
