@@ -1,0 +1,14 @@
+# uxTOMMY
+
+My personal, non-professional website for my hobbies and whatnot.
+
+### To do
+- Add filter by tags for blog
+- Work on homepage / About Me
+- Work on Contacts page
+- Make a footer
+
+### Developer's note
+#### To deploy
+- ```cd``` into the ```/docs``` directory and run ```m2j blogs/*.md -o blogs-metadata.json``` in **bash** (cmd doesn't work for some reason)  
+- Run ```npm run docs:build``` and push the contents of ```/dist``` to the ```website``` branch.
