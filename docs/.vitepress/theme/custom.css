@@ -15,8 +15,7 @@
     --vp-c-tango-dimm-3: rgb(255, 153, 85, 0.05);
   }
 
-  .VPDocs, .container, .VPContents {
-    padding: 0;
-    margin: 0;
+  .VPDoc {
+    padding: 012px !important;
   }
   
