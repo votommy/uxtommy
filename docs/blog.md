@@ -42,7 +42,7 @@ aside: false
 }
 table tr td:first-child { /* right align the first column */
     text-align: right;
-    width: 165px;
+    width: 110px;
 }
 table, tr, td {
     background-color: transparent !important;
