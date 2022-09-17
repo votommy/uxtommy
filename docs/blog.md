@@ -14,7 +14,7 @@ aside: false
         </td>
         <td class="blogColumn">
             <a :href="'/blogs/' + blog.basename">
-                {{ blog.titleTemplate }}
+                {{ blog.titleTemplate }}<br>
                 <span id="tagPills" v-for="tag in blog.tags">{{ tag }}</span>
             </a>
         </td>
@@ -27,7 +27,7 @@ aside: false
     justify-content: end;
 }
 #sortBtn {
-    padding: 6px;
+    padding: 6px 12px;
     border: 1px #BBB solid;
     border-radius: 10px;
     text-align: right;
@@ -56,11 +56,11 @@ td {
 }
 #tagPills {
     color: #BBB;
-    font-size: .85rem;
+    font-size: .8rem;
     border: 1px #BBB solid;
     border-radius: 1rem;
     padding: 0 6px 3px 6px;
-    margin-left: 4px;
+    margin-right: 4px;
 }
 td:hover #tagPills {
     color: #999;
