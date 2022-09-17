@@ -10,5 +10,6 @@ My personal, non-professional website for my hobbies and whatnot.
 
 ### Developer's note
 #### To deploy
-- ```cd``` into the ```/docs``` directory and run ```m2j blogs/*.md -o blogs-metadata.json``` in **bash** (cmd doesn't work for some reason)  
-- Run ```npm run docs:build``` and push the contents of ```/dist``` to the ```website``` branch.
+- ```cd docs``` into the /docs directory and run ```m2j blogs/*.md -o blogs-metadata.json -w 0``` in **bash** (cmd doesn't work for some reason)  
+- ```cd ..``` back out into the root
+- Run ```npm run docs:build``` and push the contents of /dist to the **website** branch.
