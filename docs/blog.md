@@ -9,11 +9,13 @@ aside: false
 <div id="btnDiv"><button id="sortBtn" @click="sort()" title="newest to oldest">&#8595;</button></div>
 <table class="desc">
     <tr v-for="blog in blogs">
-        <td>{{ blog.customDate }}</td>
         <td>
+            {{ blog.customDate }}
+        </td>
+        <td class="blogColumn">
             <a :href="'/blogs/' + blog.basename">
-            {{ blog.titleTemplate }}
-            <span id="tagPills" v-for="tag in blog.tags">{{ tag }}</span>
+                {{ blog.titleTemplate }}
+                <span id="tagPills" v-for="tag in blog.tags">{{ tag }}</span>
             </a>
         </td>
     </tr>
@@ -31,19 +33,26 @@ aside: false
     text-align: right;
 }
 .desc {
-  display: flex;
-  flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .asc {
-  display: block;
+    display: flex;
+    flex-direction: column;
 }
 table tr td:first-child { /* right align the first column */
     text-align: right;
-    width: 200px;
+    width: 165px;
 }
 table, tr, td {
     background-color: transparent !important;
     border: none !important;
+}
+td {
+    padding: 12px 0 !important;
+}
+.blogColumn {
+    padding-left: 32px !important;
 }
 #tagPills {
     color: #BBB;
