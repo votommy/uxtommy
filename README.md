@@ -8,7 +8,7 @@ My personal, non-professional website for my hobbies and whatnot.
 - Add filter by tags for blog
 - Work on homepage / About Me
 - Work on Contacts page
-- Make a footer
+- ~~Make a footer~~
 
 ### Developer's note
 #### To deploy
