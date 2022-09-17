@@ -6,28 +6,51 @@ aside: false
 ---
 
 <h1>Posts</h1>
-
 <table>
-    <tr>
-        <td>December 28, 2021</td>
-        <td><a href="/blogs/2021-NetWorth-Update">2021 Annual Net Worth Review</a></td>
-    </tr>
-    <tr>
-        <td>December 28, 2020</td>
-        <td><a href="/blogs/Q4-2020-NetWorth-Update">2020 Annual Net Worth Review</a></td>
-    </tr>
-    <tr>
-        <td>April 22, 2020</td>
-        <td><a href="/blogs/Earthrise">Earthrise</a></td>
+    <tr v-for="blog in blogs">
+        <td>{{ blog.customDate }}</td>
+        <td>
+            <a :href="'/blogs/' + blog.basename">
+            {{ blog.titleTemplate }}
+            <span id="tagPills" v-for="tag in blog.tags">{{ tag }}</span>
+            </a>
+        </td>
     </tr>
 </table>
 
 <style scoped>
+table {
+  display: flex;
+  flex-direction: column-reverse;
+}
 table tr td:first-child { /* right align the first column */
     text-align: right;
+    width: 200px;
 }
 table, tr, td {
     background-color: transparent !important;
     border: none !important;
 }
+#tagPills {
+    color: #BBB;
+    font-size: .85rem;
+    border: 1px #BBB solid;
+    border-radius: 1rem;
+    padding: 0 6px 3px 6px;
+    margin-left: 4px;
+}
+td:hover #tagPills {
+    color: #999;
+    border-color: #999;
+}
 </style>
+
+<script>
+export default {
+    data() {
+        return {
+            blogs: <!--@include: blogs-metadata.json-->
+        }
+    }
+}
+</script>
