@@ -6,7 +6,8 @@ aside: false
 ---
 
 <h1>Posts</h1>
-<table>
+<div id="btnDiv"><button id="sortBtn" @click="sort()" title="newest to oldest">&#8595;</button></div>
+<table class="desc">
     <tr v-for="blog in blogs">
         <td>{{ blog.customDate }}</td>
         <td>
@@ -19,9 +20,22 @@ aside: false
 </table>
 
 <style scoped>
-table {
+#btnDiv {
+    display: flex;
+    justify-content: end;
+}
+#sortBtn {
+    padding: 6px;
+    border: 1px #BBB solid;
+    border-radius: 10px;
+    text-align: right;
+}
+.desc {
   display: flex;
   flex-direction: column-reverse;
+}
+.asc {
+  display: block;
 }
 table tr td:first-child { /* right align the first column */
     text-align: right;
@@ -50,6 +64,20 @@ export default {
     data() {
         return {
             blogs: <!--@include: blogs-metadata.json-->
+        }
+    },
+    methods: {
+        sort() {
+            if(document.querySelector("table").className == "desc") {
+                document.querySelector("table").className = "asc";
+                document.querySelector("#sortBtn").innerHTML = "&#8593;";
+                document.querySelector("#sortBtn").title = "oldest to newest";
+            }
+            else if(document.querySelector("table").className == "asc") {
+                document.querySelector("table").className = "desc";
+                document.querySelector("#sortBtn").innerHTML = "&#8595;";
+                document.querySelector("#sortBtn").title = "newest to oldest";
+            }
         }
     }
 }
