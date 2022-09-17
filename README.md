@@ -5,6 +5,7 @@
 My personal, non-professional website for my hobbies and whatnot.
 
 ### To do
+- ~~Make tags~~
 - Add filter by tags for blog
 - Work on homepage / About Me
 - Work on Contacts page
