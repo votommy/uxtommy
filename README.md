@@ -1,3 +1,5 @@
+<img src="docs/assets/logo.svg" width="100px">
+
 # uxTOMMY
 
 My personal, non-professional website for my hobbies and whatnot.
