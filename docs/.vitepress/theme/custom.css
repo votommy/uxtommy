@@ -17,15 +17,37 @@
 
 @font-face {
   font-family: "TommySans";
-  src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySans.woff") format('woff');
+  src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySans.woff") format('woff'),
+       url("fonts/TommySans.woff") format('woff'); /*If web-hosted font doesn't work, use the on-board one*/
 }
 @font-face {
   font-family: "TommySans";
-  src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySansBold.woff") format('woff');
+  src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySansBold.woff") format('woff'),
+       url("fonts/TommySansBold.woff") format('woff'); /*If web-hosted font doesn't work, use the on-board one*/
   font-weight: bold;
 }
+@font-face {
+  font-family: "Century_Gothic";
+  src: url("fonts/CenturyGothic.woff") format('woff');
+}
+@font-face {
+  font-family: "Century_Gothic";
+  src: url("fonts/CenturyGothicBold.woff") format('woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Century_Gothic";
+  src: url("fonts/CenturyGothicBoldItalic.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Century_Gothic";
+  src: url("fonts/CenturyGothicItalic.woff") format('woff');
+  font-style: italic;
+}
 html, body {
-  font-family: "TommySans";
+  font-family: "TommySans", "Century_Gothic";
 }
 
 .VPDoc {
