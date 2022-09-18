@@ -12,9 +12,9 @@ aside: false
         <td>
             {{ blog.customDate }}
         </td>
-        <td class="blogColumn">
+        <td class="blogColumn" @click="openBlog(blog.basename)">
             <a :href="'/blogs/' + blog.basename">
-                {{ blog.titleTemplate }}<br>
+                <span id="blogTitle">{{ blog.titleTemplate }}</span><br>
                 <span id="tagPills" v-for="tag in blog.tags">{{ tag }}</span>
             </a>
         </td>
@@ -42,29 +42,36 @@ aside: false
 }
 table tr td:first-child { /* right align the first column */
     text-align: right;
-    width: 110px;
+    width: 120px;
 }
 table, tr, td {
     background-color: transparent !important;
     border: none !important;
 }
 td {
-    padding: 12px 0 !important;
+    padding: 24px 0 !important;
+    width: 80%;
 }
 .blogColumn {
     padding-left: 32px !important;
+}
+.blogColumn:hover {
+    cursor: pointer !important;
 }
 #tagPills {
     color: #BBB;
     font-size: .8rem;
     border: 1px #BBB solid;
     border-radius: 1rem;
-    padding: 0 6px 3px 6px;
+    padding: 3px 6px;
     margin-right: 4px;
 }
-td:hover #tagPills {
+.blogColumn:hover #tagPills {
     color: #999;
     border-color: #999;
+}
+.blogColumn:hover #blogTitle {
+    color: var(--vp-c-brand-dark);
 }
 </style>
 
@@ -87,6 +94,9 @@ export default {
                 document.querySelector("#sortBtn").innerHTML = "&#8595;";
                 document.querySelector("#sortBtn").title = "newest to oldest";
             }
+        },
+        openBlog(link) {
+            window.location.href = "/blogs/" + link;
         }
     }
 }

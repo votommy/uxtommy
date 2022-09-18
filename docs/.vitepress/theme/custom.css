@@ -15,7 +15,20 @@
     --vp-c-tango-dimm-3: rgb(255, 153, 85, 0.05);
   }
 
-  .VPDoc {
-    padding: 012px !important;
-  }
+@font-face {
+  font-family: "TommySans";
+  src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySans.woff") format('woff');
+}
+@font-face {
+  font-family: "TommySans";
+  src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySansBold.woff") format('woff');
+  font-weight: bold;
+}
+html, body {
+  font-family: "TommySans";
+}
+
+.VPDoc {
+  padding: 012px !important;
+}
   
