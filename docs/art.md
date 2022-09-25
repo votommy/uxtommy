@@ -68,27 +68,26 @@ aside: false
 </style>
 
 <script>
-let isBuild = false;
-let imgURL= isBuild ? "https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/" : "/artworks/";
+let imgURL= "/artworks/thumbnails/";
 export default {
     data() {
         return {
             gallery: [
-                {title: "Porcelain Tommy", img: imgURL + 'Porcelain-Tommy.png'},
-                {title: "Emma Portrait", img: imgURL + 'Emma-Portrait.png'},
-                {title: "Riko: Original Character", img: imgURL + 'Riko-Original-Character.png'},
-                {title: "Bryn", img: imgURL + 'Bryn.png'},
-                {title: "LSD Tommy", img: imgURL + 'LSD-Tommy.png'},
-                {title: "Cat Portrait", img: imgURL + 'Cat-Portrait.png'},
-                {title: "Dance Pose Tommy", img: imgURL + 'Dance-Pose-Tommy.png'},
-                {title: "Dani", img: imgURL + 'Dani.png'},
-                {title: "Aris", img: imgURL + 'Aris.png'},
-                {title: "Luvenis", img: imgURL + 'Luvenis.png'},
-                {title: "Ana Portrait", img: imgURL + 'Ana-Portrait.png'},
-                {title: "Chibi Tommy", img: imgURL + 'Chibi-Tommy.png'},
-                {title: "Luna Magnolia", img: imgURL + 'Luna-Magnolia.png'},
-                {title: "Kanon", img: imgURL + 'Kanon.png'},
-                {title: "Nieru", img: imgURL + 'Nieru.png'},
+                {title: "Porcelain Tommy", img: imgURL + 'Porcelain-Tommy.jpg'},
+                {title: "Emma Portrait", img: imgURL + 'Emma-Portrait.jpg'},
+                {title: "Dani", img: imgURL + 'Dani.jpg'},
+                {title: "Bryn", img: imgURL + 'Bryn.jpg'},
+                {title: "LSD Tommy", img: imgURL + 'LSD-Tommy.jpg'},
+                {title: "Cat Portrait", img: imgURL + 'Cat-Portrait.jpg'},
+                {title: "Dance Pose Tommy", img: imgURL + 'Dance-Pose-Tommy.jpg'},
+                {title: "Riko: Original Character", img: imgURL + 'Riko-Original-Character.jpg'},
+                {title: "Aris", img: imgURL + 'Aris.jpg'},
+                {title: "Luvenis", img: imgURL + 'Luvenis.jpg'},
+                {title: "Ana Portrait", img: imgURL + 'Ana-Portrait.jpg'},
+                {title: "Chibi Tommy", img: imgURL + 'Chibi-Tommy.jpg'},
+                {title: "Luna Magnolia", img: imgURL + 'Luna-Magnolia.jpg'},
+                {title: "Kanon", img: imgURL + 'Kanon.jpg'},
+                {title: "Nieru", img: imgURL + 'Nieru.jpg'},
             ]
         }
     },
