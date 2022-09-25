@@ -68,7 +68,7 @@ aside: false
 </style>
 
 <script>
-let isBuild = true;
+let isBuild = false;
 let imgURL= isBuild ? "https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/" : "/artworks/";
 export default {
     data() {
