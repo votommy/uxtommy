@@ -11,6 +11,7 @@ My personal, non-professional website for my hobbies and whatnot.
 - Work on homepage / About Me
 - Work on Contacts page
 - ~~Make a footer~~
+- Add Art Gallery tab
 
 ### Developer's note
 #### To deploy
