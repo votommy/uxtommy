@@ -12,11 +12,14 @@ My personal, non-professional website for my hobbies and whatnot.
 - Work on Contacts page
 - ~~Make a footer~~
 - ~~Add Art Gallery tab~~
-- Compress photos
+- ~~Compress photos~~
+- Make image thumbnails lossy compressed jpegs, and only render pngs onClick
 - Add full screen art works onClick
 
 ### Developer's note
 #### To deploy
 - ```cd docs``` into the /docs directory and run ```m2j blogs/*.md -o blogs-metadata.json -w 0``` in **bash** (cmd doesn't work for some reason)  
 - ```cd ..``` back out into the root
-- Run ```npm run build``` and push the contents of /dist to the **website** branch.
+- Run ```npm run build```
+- Copy /artworks folder to /dist
+- push the contents of /dist to the **website** branch
