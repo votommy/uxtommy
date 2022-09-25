@@ -3,6 +3,7 @@ export default {
     title: 'uxTOMMY',
     titleTemplate: false,
     description: "Tommy's website",
+    cleanUrls: 'with-subfolders',
     themeConfig: {
         logo: 'https://raw.githubusercontent.com/votommy/uxtommy/393483f02d16ef3a893028e7da023b01d192d7d7/docs/assets/logo.svg',
         nav: [

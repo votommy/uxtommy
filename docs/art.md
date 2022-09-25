@@ -68,25 +68,27 @@ aside: false
 </style>
 
 <script>
+let isBuild = true;
+let imgURL= isBuild ? "https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/" : "/artworks/";
 export default {
     data() {
         return {
             gallery: [
-                {title: "Porcelain Tommy", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Porcelain-Tommy.png'},
-                {title: "Emma Portrait", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Emma-Portrait.png'},
-                {title: "Riko: Original Character", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Riko-Original-Character.png'},
-                {title: "Bryn", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Bryn.png'},
-                {title: "LSD Tommy", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/LSD-Tommy.png'},
-                {title: "Cat Portrait", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Cat-Portrait.png'},
-                {title: "Dance Pose Tommy", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Dance-Pose-Tommy.png'},
-                {title: "Dani", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Dani.png'},
-                {title: "Aris", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Aris.png'},
-                {title: "Luvenis", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Luvenis.png'},
-                {title: "Ana Portrait", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Ana-Portrait.png'},
-                {title: "Chibi Tommy", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Chibi-Tommy.png'},
-                {title: "Luna Magnolia", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Luna-Magnolia.png'},
-                {title: "Kanon", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Kanon.png'},
-                {title: "Nieru", img: 'https://raw.githubusercontent.com/votommy/uxtommy/main/docs/artworks/Nieru.png'},
+                {title: "Porcelain Tommy", img: imgURL + 'Porcelain-Tommy.png'},
+                {title: "Emma Portrait", img: imgURL + 'Emma-Portrait.png'},
+                {title: "Riko: Original Character", img: imgURL + 'Riko-Original-Character.png'},
+                {title: "Bryn", img: imgURL + 'Bryn.png'},
+                {title: "LSD Tommy", img: imgURL + 'LSD-Tommy.png'},
+                {title: "Cat Portrait", img: imgURL + 'Cat-Portrait.png'},
+                {title: "Dance Pose Tommy", img: imgURL + 'Dance-Pose-Tommy.png'},
+                {title: "Dani", img: imgURL + 'Dani.png'},
+                {title: "Aris", img: imgURL + 'Aris.png'},
+                {title: "Luvenis", img: imgURL + 'Luvenis.png'},
+                {title: "Ana Portrait", img: imgURL + 'Ana-Portrait.png'},
+                {title: "Chibi Tommy", img: imgURL + 'Chibi-Tommy.png'},
+                {title: "Luna Magnolia", img: imgURL + 'Luna-Magnolia.png'},
+                {title: "Kanon", img: imgURL + 'Kanon.png'},
+                {title: "Nieru", img: imgURL + 'Nieru.png'},
             ]
         }
     },

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.ca562bd3.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"drafts/MovingToVegas.md"}'),o={name:"drafts/MovingToVegas.md"};function s(r,n,c,i,d,p){return a(),t("div")}const m=e(o,[["render",s]]);export{f as __pageData,m as default};
