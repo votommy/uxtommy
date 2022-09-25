@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.ca562bd3.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"drafts/Budget.md"}'),r={name:"drafts/Budget.md"};function s(o,c,n,d,p,_){return a(),e("div")}const m=t(r,[["render",s]]);export{i as __pageData,m as default};
