@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.ca562bd3.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"drafts/FloatOn.md"}'),o={name:"drafts/FloatOn.md"};function r(n,s,c,d,p,_){return a(),e("div")}const l=t(o,[["render",r]]);export{i as __pageData,l as default};

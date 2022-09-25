@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.ca562bd3.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"drafts/BuildingMyPC.md"}'),r={name:"drafts/BuildingMyPC.md"};function n(s,o,c,i,d,p){return a(),e("div")}const l=t(r,[["render",n]]);export{f as __pageData,l as default};
