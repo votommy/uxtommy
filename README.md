@@ -13,7 +13,7 @@ My personal, non-professional website for my hobbies and whatnot.
 - ~~Make a footer~~
 - ~~Add Art Gallery tab~~
 - ~~Compress photos~~
-- Make image thumbnails lossy compressed jpegs, and only render pngs onClick
+- ~~Make image thumbnails lossy compressed jpegs~~
 - Add full screen art works onClick
 
 ### Developer's note
