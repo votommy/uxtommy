@@ -38,17 +38,17 @@ export default {
     data() {
         return {
             gallery: [
-                {title: "Porcelain Tommy", thumbnail: thumbnailURL + 'Porcelain-Tommy.jpg', img: imgURL + 'Porcelain-Tommy.png'},
-                {title: "Emma Portrait", thumbnail: thumbnailURL + 'Emma-Portrait.jpg', img: imgURL + 'Emma-Portrait.png'},
-                {title: "Dani", thumbnail: thumbnailURL + 'Dani.jpg', img: imgURL + 'Dani.png'},
+                {title: "Porcelain T6", thumbnail: thumbnailURL + 'Porcelain-T6.jpg', img: imgURL + 'Porcelain-T6.png'},
+                {title: "Emma P Portrait", thumbnail: thumbnailURL + 'Emma-Portrait.jpg', img: imgURL + 'Emma-Portrait.png'},
+                {title: "Dani Daikazoku", thumbnail: thumbnailURL + 'Dani.jpg', img: imgURL + 'Dani.png'},
                 {title: "Bryn", thumbnail: thumbnailURL + 'Bryn.jpg', img: imgURL + 'Bryn.png'},
                 {title: "LSD Tommy", thumbnail: thumbnailURL + 'LSD-Tommy.jpg', img: imgURL + 'LSD-Tommy.png'},
-                {title: "Cat Portrait", thumbnail: thumbnailURL + 'Cat-Portrait.jpg', img: imgURL + 'Cat-Portrait.png'},
-                {title: "Dance Pose Tommy", thumbnail: thumbnailURL + 'Dance-Pose-Tommy.jpg', img: imgURL + 'Dance-Pose-Tommy.png'},
+                {title: "Catrin B Portrait", thumbnail: thumbnailURL + 'Catrin-Portrait.jpg', img: imgURL + 'Catrin-Portrait.png'},
+                {title: "Dance Pose T6", thumbnail: thumbnailURL + 'Dance-Pose-T6.jpg', img: imgURL + 'Dance-Pose-T6.png'},
                 {title: "Riko: Original Character", thumbnail: thumbnailURL + 'Riko-Original-Character.jpg', img: imgURL + 'Riko-Original-Character.png'},
                 {title: "Aris", thumbnail: thumbnailURL + 'Aris.jpg', img: imgURL + 'Aris.png'},
                 {title: "Luvenis", thumbnail: thumbnailURL + 'Luvenis.jpg', img: imgURL + 'Luvenis.png'},
-                {title: "Ana Portrait", thumbnail: thumbnailURL + 'Ana-Portrait.jpg', img: imgURL + 'Ana-Portrait.png'},
+                {title: "Ana K Portrait", thumbnail: thumbnailURL + 'Ana-Portrait.jpg', img: imgURL + 'Ana-Portrait.png'},
                 {title: "Chibi Tommy", thumbnail: thumbnailURL + 'Chibi-Tommy.jpg', img: imgURL + 'Chibi-Tommy.png'},
                 {title: "Luna Magnolia", thumbnail: thumbnailURL + 'Luna-Magnolia.jpg', img: imgURL + 'Luna-Magnolia.png'},
                 {title: "Kanon", thumbnail: thumbnailURL + 'Kanon.jpg', img: imgURL + 'Kanon.png'},
