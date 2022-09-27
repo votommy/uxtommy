@@ -14,7 +14,7 @@ My personal, non-professional website for my hobbies and whatnot.
 - ~~Add Art Gallery tab~~
 - ~~Compress photos~~
 - ~~Make image thumbnails lossy compressed jpegs~~
-- Add full screen art works onClick
+- ~~Add full screen art works onClick~~
 
 ### Developer's note
 #### To deploy
