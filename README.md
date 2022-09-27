@@ -15,6 +15,7 @@ My personal, non-professional website for my hobbies and whatnot.
 - ~~Compress photos~~
 - ~~Make image thumbnails lossy compressed jpegs~~
 - ~~Add full screen art works onClick~~
+- Add image description, tags, and info
 
 ### Developer's note
 #### To deploy
