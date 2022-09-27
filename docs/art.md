@@ -141,6 +141,7 @@ export default {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 80%;
+    max-height: 80%;
+    max-width: 80%;
 }
 </style>
