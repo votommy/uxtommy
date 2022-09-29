@@ -10,14 +10,14 @@ aside: false
 <div class="scrim" @click="burst()"></div>
 <div class="modal">
     <img class="img" />
-    <div class="imgDescription">
+    <!-- <div class="imgDescription">
         <h1 class="imgTitle"></h1>
         <p class="imgCaption"></p>
         <div class="imgMediumContainer">
             <h4 class="imgMediumTitle">Program used:</h4>
             <p class="imgMedium"></p>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div id="gallery">
@@ -86,9 +86,9 @@ export default {
             document.querySelector(".scrim").style.display = "block";
             document.querySelector(".modal").style.display = "flex";
             document.querySelector(".img").src = piece.img;
-            document.querySelector(".imgTitle").innerHTML = piece.title;
-            document.querySelector(".imgCaption").innerHTML = piece.caption;
-            document.querySelector(".imgMedium").innerHTML = piece.medium.join(', ');
+            // document.querySelector(".imgTitle").innerHTML = piece.title;
+            // document.querySelector(".imgCaption").innerHTML = piece.caption;
+            // document.querySelector(".imgMedium").innerHTML = piece.medium.join(', ');
         },
         burst() {
             document.querySelector(".scrim").style.display = "none";
@@ -155,7 +155,7 @@ export default {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-height: 80%;
+    max-height: 90%;
     max-width: 90%;
     z-index: 100;
 }
@@ -164,7 +164,6 @@ export default {
     z-index: 100;
     max-height: 50%;
     max-width: 50%;
-    
 }
 .imgDescription {
     position: static;
