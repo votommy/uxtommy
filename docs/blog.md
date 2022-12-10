@@ -61,7 +61,10 @@ td {
 }
 #blogDescription {
     font-size: .9rem;
-    color: #BBB;
+    color: #999;
+}
+.blogColumn:hover #blogDescription {
+    color: #777;
 }
 #tagPills {
     color: #BBB;
@@ -71,7 +74,7 @@ td {
     padding: 3px 6px;
     margin-right: 4px;
 }
-.blogColumn:hover #tagPills, #blogDescription {
+.blogColumn:hover #tagPills {
     color: #999;
     border-color: #999;
 }
