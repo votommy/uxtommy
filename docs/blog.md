@@ -71,7 +71,7 @@ td {
     padding: 3px 6px;
     margin-right: 4px;
 }
-.blogColumn:hover #tagPills {
+.blogColumn:hover #tagPills, #blogDescription {
     color: #999;
     border-color: #999;
 }
