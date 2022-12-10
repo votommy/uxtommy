@@ -15,7 +15,7 @@ aside: false
         <td class="blogColumn" @click="openBlog(blog.basename)">
             <a :href="'/blogs/' + blog.basename">
                 <span id="blogTitle">{{ blog.titleTemplate }}</span><br>
-                <span id="blogDescription">{{ blog.subtitleTemplate }}</span><br>
+                <span id="blogDescription">{{ blog.description }}</span><br>
                 <span id="tagPills" v-for="tag in blog.tags">{{ tag }}</span>
             </a>
         </td>
