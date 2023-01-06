@@ -22,5 +22,4 @@ My personal, non-professional website for my hobbies and whatnot.
 - ```cd docs``` into the /docs directory and run ```m2j blogs/*.md -o blogs-metadata.json -w 0``` in **bash** (cmd doesn't work for some reason)  
 - ```cd ..``` back out into the root
 - Run ```npm run build```
-- Copy /artworks folder to /dist
 - push the contents of /dist to the **website** branch
