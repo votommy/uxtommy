@@ -9,7 +9,7 @@ My personal, non-professional website for my hobbies and whatnot.
 - Add filter by tags
 - ~~Make an ascending/descending sorter~~
 - Work on homepage / About Me
-- Work on Contacts page
+- ~~Work on Contacts page~~
 - ~~Make a footer~~
 - ~~Add Art Gallery tab~~
 - ~~Compress photos~~
