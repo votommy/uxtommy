@@ -8,12 +8,12 @@ aside: false
 <div class="container">
     <h1>Tommy's Links</h1>
     <a v-for="tile in tiles" target="_blank" rel="noopener noreferrer" :href="tile.link" class="tile">
-        <div class="icon"></div>
+        <img class="icon" :src="tile.icon"/>
         <div>
             <p class="title">{{ tile.title }}</p>
             <p class="subtitle">{{ tile.subtitle }}</p>
         </div>
-        <div class="share-btn"></div>
+        <div style="width: 3rem"></div>
     </a>
 </div>
 
@@ -35,23 +35,34 @@ aside: false
         padding: 0.5rem 2rem;
         border: 1px #BBB solid;
         border-radius: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .tile:hover {
-        border-color: #999;
+        border-color: var(--vp-c-brand);
+    }
+
+    .icon {
+        height: 3rem;
     }
 
     .title {
         text-align: center;
         font-size: 1.5rem;
         margin: 0;
+        margin-top: 0.2rem;
+        color: black;
     }
+
     .subtitle {
         text-align: center;
         margin: 0;
+        margin-bottom: -0.2rem;
         color: #999;
     }
     .tile:hover .subtitle {
-        color: #777;
+        color: var(--vp-c-brand-dark);
     }
 </style>
 
