@@ -18,6 +18,8 @@ My personal, non-professional website for my hobbies and whatnot.
 - Add image description, tags, and info
 
 ### Developer's note
+#### To run in dev mode
+- Run `npm run dev`
 #### To deploy
 - ```cd docs``` into the /docs directory and run ```m2j blogs/*.md -o blogs-metadata.json -w 0``` in **bash** (cmd doesn't work for some reason)  
 - ```cd ..``` back out into the root
