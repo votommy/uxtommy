@@ -5,7 +5,7 @@ description: Tommy's social media links
 aside: false
 ---
 
-<div class="container">
+<div class="box">
     <h1>Tommy's Links</h1>
     <a v-for="tile in tiles" target="_blank" rel="noopener noreferrer" :href="tile.link" class="tile">
         <img class="icon" :src="tile.icon" :alt="tile.alt"/>
@@ -18,10 +18,7 @@ aside: false
 </div>
 
 <style scoped>
-    .container {
-        width: 90%;
-        max-width: 680px;
-        margin: 10px;
+    .box {
         display: flex;
         flex-direction: column;
         align-items: center;
