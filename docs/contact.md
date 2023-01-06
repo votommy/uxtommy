@@ -49,7 +49,7 @@ aside: false
         font-size: 1.5rem;
         margin: 0;
         margin-top: 0.2rem;
-        color: black;
+        color: var(--vp-c-text-1);
     }
 
     .subtitle {
