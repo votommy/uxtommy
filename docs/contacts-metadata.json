@@ -3,12 +3,14 @@
     "title": "Instagram",
     "subtitle": "@TangoSixxer",
     "link": "https://www.instagram.com/tangosixxer",
-    "icon": "/assets/contactIcons/instagram.png"
+    "icon": "/contactIcons/instagram.png",
+    "alt": "Instagram logo"
   },
   "2": {
     "title": "ArtStation",
     "subtitle": "My art gallery",
     "link": "https://tommymartial.artstation.com",
-    "icon": "/assets/contactIcons/artstation.png"
+    "icon": "/contactIcons/artstation.png",
+    "alt": "Art Station logo"
   }
 }

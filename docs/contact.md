@@ -8,7 +8,7 @@ aside: false
 <div class="container">
     <h1>Tommy's Links</h1>
     <a v-for="tile in tiles" target="_blank" rel="noopener noreferrer" :href="tile.link" class="tile">
-        <img class="icon" :src="tile.icon"/>
+        <img class="icon" :src="tile.icon" :alt="tile.alt"/>
         <div>
             <p class="title">{{ tile.title }}</p>
             <p class="subtitle">{{ tile.subtitle }}</p>
