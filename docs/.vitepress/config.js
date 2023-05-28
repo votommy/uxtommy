@@ -10,11 +10,11 @@ export default {
             { text: 'About Me', link: '/' },
             { text: 'Art', link: '/art' },
             { text: 'Blog', link: '/blog' },
-            { text: 'Contact', link: '/contact' }
+            // { text: 'Contact', link: '/contact' }
         ],
         footer: {
             message: '',
-            copyright: 'Copyright © 2022 Tommy'
+            copyright: 'Copyright © 2023 Tommy'
         }
     },
     head: [
