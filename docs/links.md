@@ -1,7 +1,7 @@
 ---
 title: uxTOMMY
-titleTemplate: Contacts
-description: Tommy's social media links
+titleTemplate: Links
+description: Tommy's links
 aside: false
 ---
 
@@ -41,7 +41,7 @@ aside: false
     }
 
     .icon {
-        height: 3rem;
+        width: 3rem;
     }
 
     .title {
@@ -67,7 +67,7 @@ aside: false
 export default {
     data() {
         return {
-            tiles: <!--@include: contacts-metadata.json-->
+            tiles: <!--@include: links-metadata.json-->
         }
     },
 }
