@@ -10,7 +10,7 @@ export default {
             { text: 'About Me', link: '/' },
             { text: 'Art', link: '/art' },
             { text: 'Blog', link: '/blog' },
-            // { text: 'Contact', link: '/contact' }
+            { text: 'Contact', link: '/contact' }
         ],
         footer: {
             message: '',
