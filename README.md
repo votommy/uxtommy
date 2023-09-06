@@ -5,17 +5,17 @@
 My personal, non-professional website for my hobbies and whatnot.
 
 ### To do
-- ~~Make tags~~
-- Add filter by tags
-- ~~Make an ascending/descending sorter~~
-- Work on homepage / About Me
-- ~~Work on Contacts page~~
-- ~~Make a footer~~
-- ~~Add Art Gallery tab~~
-- ~~Compress photos~~
-- ~~Make image thumbnails lossy compressed jpegs~~
-- ~~Add full screen art works onClick~~
-- Add image description, tags, and info
+- [x] Make tags
+- [ ] Add filter by tags
+- [x] Make an ascending/descending sorter
+- [x] Work on homepage / About Me
+- [x] Work on Contacts page
+- [x] Make a footer
+- [x] Add Art Gallery tab
+- [x] Compress photos
+- [x] Make image thumbnails lossy compressed jpegs
+- [x] Add full screen art works onClick
+- [ ] Add image description, tags, and info
 
 ### Developer's note
 #### To run in dev mode
