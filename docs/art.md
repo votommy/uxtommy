@@ -6,6 +6,7 @@ aside: false
 ---
 
 <h1>Gallery</h1>
+<h3 style="margin-top: 1rem;">Art by me</h3>
 
 <div class="scrim" @click="burst()"></div>
 <!-- <div class="modal"> -->

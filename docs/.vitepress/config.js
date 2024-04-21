@@ -9,7 +9,7 @@ export default {
         nav: [
             { text: 'About Me', link: '/' },
             { text: 'Art', link: '/art' },
-            { text: 'Blog', link: '/blog' },
+            // { text: 'Blog', link: '/blog' },
             { text: 'Links', link: '/links' }
         ],
         footer: {

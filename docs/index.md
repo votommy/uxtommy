@@ -8,4 +8,4 @@ aside: false
 # Hi, I'm Tommy
 
 Welcome to my site.  
-I'm just a hobbyist, blogging things that're on my mind.
+I'm just a hobbyist.
