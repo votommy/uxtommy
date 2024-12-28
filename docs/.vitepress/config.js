@@ -14,7 +14,7 @@ export default {
         ],
         footer: {
             message: '',
-            copyright: 'Copyright © 2023 Tommy'
+            copyright: 'Copyright © 2024 Tommy'
         }
     },
     head: [
