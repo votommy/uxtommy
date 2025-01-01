@@ -9,12 +9,12 @@ export default {
         nav: [
             { text: 'About Me', link: '/' },
             { text: 'Art', link: '/art' },
-            // { text: 'Blog', link: '/blog' },
+            { text: 'Blog', link: '/blog' },
             { text: 'Links', link: '/links' }
         ],
         footer: {
             message: '',
-            copyright: 'Copyright © 2024 Tommy'
+            copyright: 'Copyright © 2025 Tommy'
         }
     },
     head: [

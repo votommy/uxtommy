@@ -52,6 +52,21 @@
     "iso8601Date": "2022-12-27T16:00:00-08:00",
     "basename": "2022-12-28"
   },
+  "2023-04-24": {
+    "date": "2023-04-24T00:00:00.000Z",
+    "title": "uxTOMMY",
+    "titleTemplate": "I bought my dream watch!",
+    "description": "The Over-Engineering of the Grand Seiko Spring Drive",
+    "customDate": "24 Apr 2023",
+    "aside": false,
+    "tags": [
+      "horology",
+      "engineering",
+      "monologue"
+    ],
+    "iso8601Date": "2023-04-23T17:00:00-07:00",
+    "basename": "2023-04-24"
+  },
   "2023-12-28": {
     "date": "2023-12-28T00:00:00.000Z",
     "title": "uxTOMMY",
