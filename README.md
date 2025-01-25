@@ -25,4 +25,4 @@ My personal, non-professional website for my hobbies and whatnot.
     - Make sure to have [markdown-to-json](https://www.npmjs.com/package/markdown-to-json) installed for this to work.
 - ```cd ..``` back out into the root
 - Run ```npm run build```
-- push the contents of /dist to the **website** branch
+- push the contents of `docs/.vitepress/dist` to the **website** branch
